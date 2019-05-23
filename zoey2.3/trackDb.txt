@@ -308,6 +308,13 @@ bigDataUrl z_c_del.sel.bb
 type bigBed 9
 group map
 
+track canfam-nomap
+type bigBed 3
+bigDataUrl zoey.delInCanFam.bed.nogap.sort.bb
+shortLabel canfamNoMap
+longLabel deleted in lift over
+visibility hide
+group map
 
 
 ### Genes
