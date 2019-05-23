@@ -7,3 +7,39 @@ color 0,0,0
 bigDataUrl zoey.2.3.gaps.bb
 type bigBed
 group map
+
+track GC_content
+type bigWig
+container multiWig
+shortLabel GC_content
+longLabel GC Content
+aggregate transparentOverlay
+showSubtrackColoronUi on
+maxHeightPixels 500:100:8
+browser full all
+viewLimits 0:1
+yLineMark 0.41
+yLineOnOff off
+group map
+
+        track 50bp_gc
+        parent GC_content
+        type bigWig
+        bigDataUrl http://kiddlabshare.umms.med.umich.edu/zoey2.3/50.bw
+        shortLabel GC_50bp
+        longLabel GC 50bp window
+        graphTypeDefault bar
+        yLineOnOff off
+        yLineMark 0.0
+        color 142,142,142
+
+        track 400bp_gc
+        parent GC_content
+        type bigWig
+        bigDataUrl http://kiddlabshare.umms.med.umich.edu/zoey2.3/400.bw
+        shortLabel GC_400bp
+        longLabel GC 400bp window
+        graphTypeDefault bar
+        yLineOnOff on
+
+
