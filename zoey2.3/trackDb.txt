@@ -288,6 +288,26 @@ group map
 color 0,0,255
 
 
+track insertions
+longLabel insertions vs canfam
+shortLabel insertions
+priority 11
+visibility hide
+itemRgb on 
+bigDataUrl z_c_ins.sel.bb
+type bigBed 9
+group map
+
+track deletions
+longLabel deletions vs canfam
+shortLabel deletions
+priority 11
+visibility hide
+itemRgb on 
+bigDataUrl z_c_del.sel.bb 
+type bigBed 9
+group map
+
 
 
 ### Genes
