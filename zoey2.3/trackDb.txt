@@ -53,12 +53,131 @@ bigDataUrl combined-TRF.bb
 type bigBed
 group map
 
+
+track repeatMasker_
+compositeTrack on
+shortLabel RepeatMasker
+longLabel Repeating Elements by RepeatMasker
+group map
+priority 149.1
+visibility hide
+type bed 3 .
+noInherit on
+
+    track repeatMaskerSINE_
+    parent repeatMasker_
+    shortLabel SINE
+    longLabel SINE Repeating Elements by RepeatMasker
+    priority 1
+    spectrum on
+    maxWindowToDraw 10000000
+    colorByStrand 50,50,150 150,50,50
+    type bigBed 6 +
+    bigDataUrl zoey2.3.rmsk.SINE.bb
+
+    track repeatMaskerLINE_
+    parent repeatMasker_
+    shortLabel LINE
+    longLabel LINE Repeating Elements by RepeatMasker
+    priority 2
+    spectrum on
+    maxWindowToDraw 10000000
+    colorByStrand 50,50,150 150,50,50
+    type bigBed 6 +
+    bigDataUrl zoey2.3.rmsk.LINE.bb
+
+    track repeatMaskerLTR_
+    parent repeatMasker_
+    shortLabel LTR
+    longLabel LTR Repeating Elements by RepeatMasker
+    priority 3
+    spectrum on
+    maxWindowToDraw 10000000
+    colorByStrand 50,50,150 150,50,50
+    type bigBed 6 +
+    bigDataUrl zoey2.3.rmsk.LTR.bb
+
+    track repeatMaskerDNA_
+    parent repeatMasker_
+    shortLabel DNA
+    longLabel DNA Repeating Elements by RepeatMasker
+    priority 4
+    spectrum on
+    maxWindowToDraw 10000000
+    colorByStrand 50,50,150 150,50,50
+    type bigBed 6 +
+    bigDataUrl zoey2.3.rmsk.DNA.bb
+
+    track repeatMaskerSimple_
+    parent repeatMasker_
+    shortLabel Simple
+    longLabel Simple Repeating Elements by RepeatMasker
+    priority 5
+    spectrum on
+    maxWindowToDraw 10000000
+    colorByStrand 50,50,150 150,50,50
+    type bigBed 6 +
+    bigDataUrl zoey2.3.rmsk.Simple.bb
+
+    track repeatMaskerLowComplexity_
+    parent repeatMasker_
+    shortLabel Low Complexity
+    longLabel Low Complexity Repeating Elements by RepeatMasker
+    priority 6
+    spectrum on
+    maxWindowToDraw 10000000
+    colorByStrand 50,50,150 150,50,50
+    type bigBed 6 +
+    bigDataUrl  zoey2.3.rmsk.Low_complexity.bb
+
+    track repeatMaskerSatellite_
+    parent repeatMasker_
+    shortLabel Satellite
+    longLabel Satellite Repeating Elements by RepeatMasker
+    priority 7
+    spectrum on
+    maxWindowToDraw 10000000
+    colorByStrand 50,50,150 150,50,50
+    type bigBed 6 +
+    bigDataUrl zoey2.3.rmsk.Satellite.bb
+
+    track repeatMaskerRNA_
+    parent repeatMasker_
+    shortLabel RNA
+    longLabel RNA Repeating Elements by RepeatMasker
+    priority 8
+    spectrum on
+    maxWindowToDraw 10000000
+    colorByStrand 50,50,150 150,50,50
+    type bigBed 6 +
+    bigDataUrl zoey2.3.rmsk.RNAs.bb
+
+    track repeatMaskerrRNA_
+    parent repeatMasker_
+    shortLabel rRNA
+    longLabel rRNA Repeating Elements by RepeatMasker
+    priority 9
+    spectrum on
+    maxWindowToDraw 10000000
+    colorByStrand 50,50,150 150,50,50
+    type bigBed 6 +
+    bigDataUrl zoey2.3.rmsk.rRNA.bb
+
+    track repeatMaskerOther_
+    parent repeatMasker_
+    shortLabel Other
+    longLabel Other Repeating Elements by RepeatMasker
+    priority 10
+    spectrum on
+    maxWindowToDraw 10000000
+    colorByStrand 50,50,150 150,50,50
+    type bigBed 6 +
+    bigDataUrl zoey2.3.rmsk.Other.bb
+
+
 track WM_Dust
 type bigBed 
 bigDataUrl zoey.2.3.sddust.bb
 shortLabel WindowMasker and DUST
 longLabel WindowMasker and DUST
 group map
-
-
-
