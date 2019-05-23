@@ -180,15 +180,34 @@ shortLabel WindowMasker and DUST
 longLabel WindowMasker and DUST
 group map
 
+track CH82_concordant
+type bigBed 12
+bigDataUrl CHORI-82.concordant.bb
+shortLabel CH82_concordant
+longLabel  CHORI-82 Concordant BACs
+visibility hide
+itemRgb on
+group map
 
-track tmoOther
-shortLabel Other
-longLabel Other Repeating Elements by RepeatMasker
-priority 10
-spectrum on
-maxWindowToDraw 10000000
-colorByStrand 50,50,150 150,50,50
-type bigBed 6 +
-bigDataUrl zoey2.3.rmsk.Other.bb
+track CH82_disconcordant
+type bigBed 12
+bigDataUrl CHORI-82.discordant.bb
+shortLabel CH82_disconcordant
+longLabel  CHORI-82 Discordant BACs
+visibility hide
+itemRgb on
+group map
+
+track CH82_largedisconcordant
+type bigBed 12
+bigDataUrl CHORI-82.largediscordant.bb
+shortLabel CH82_largedisconcordant
+longLabel  CHORI-82 Large Discordant BACs
+visibility hide
+itemRgb on
+group map
+
+
+
 
 
