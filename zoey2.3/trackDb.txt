@@ -42,7 +42,6 @@ group map
         graphTypeDefault bar
         yLineOnOff on
 
-
 track trf_
 longLabel TRF 
 shortLabel TRF 
@@ -52,7 +51,6 @@ color 0,0,0
 bigDataUrl combined-TRF.bb
 type bigBed
 group map
-
 
 track repeatMasker_
 compositeTrack on
@@ -181,3 +179,16 @@ bigDataUrl zoey.2.3.sddust.bb
 shortLabel WindowMasker and DUST
 longLabel WindowMasker and DUST
 group map
+
+
+track tmoOther
+shortLabel Other
+longLabel Other Repeating Elements by RepeatMasker
+priority 10
+spectrum on
+maxWindowToDraw 10000000
+colorByStrand 50,50,150 150,50,50
+type bigBed 6 +
+bigDataUrl zoey2.3.rmsk.Other.bb
+
+
