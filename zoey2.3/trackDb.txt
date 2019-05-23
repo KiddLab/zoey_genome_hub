@@ -207,6 +207,39 @@ visibility hide
 itemRgb on
 group map
 
+track segdup
+longLabel segdup > 90%
+shortLabel segdup
+visibility hide
+itemRgb on 
+bigDataUrl segdup_90.bb
+type bigBed 9
+group map
+
+track Tasha_CN_3kb
+type bigWig
+bigDataUrl tasha.3kb.bw
+shortLabel Tasha fastCN
+longLabel Tasha fastCN 3kb
+viewLimits 0:8
+visibility hide
+yLineOnOff on
+yLineMark 2
+group map
+
+track Zoey_CN_3kb
+type bigWig
+bigDataUrl zoey.3kb.bw
+shortLabel Zoey fastCN
+longLabel Zoey fastCN 3kb
+viewLimits 0:8
+visibility hide
+yLineOnOff on
+yLineMark 2
+group map
+
+
+
 
 ### Genes
 track RefSeq_Mammal
@@ -236,7 +269,6 @@ longLabel Final Zoey De Novo Genes
 visibility hide
 group genes
 color 0,0,139
-
 
 track expression
 type bigBarChart
