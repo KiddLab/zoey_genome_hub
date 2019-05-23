@@ -239,13 +239,6 @@ yLineMark 2
 group map
 
 
-track scaffmap
-type bigBed 4
-bigDataUrl scaff-maps.bb
-shortLabel scaffmap
-longLabel map of scaffolds
-group map
-
 track scaffmap_merge
 type bigBed 4
 bigDataUrl scaff-maps.merge.bb
