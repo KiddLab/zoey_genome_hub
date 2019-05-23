@@ -1,0 +1,7 @@
+track zoey23_lift
+type bigBed 9
+itemRgb on
+bigDataUrl canToZLift.color.bed.sort.bb
+shortLabel zoeylift
+longLabel lift to zoey 2.3
+visibility dense

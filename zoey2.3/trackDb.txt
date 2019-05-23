@@ -1,0 +1,9 @@
+track gap_
+longLabel Gap 
+shortLabel Gap 
+priority 11
+visibility hide
+color 0,0,0 
+bigDataUrl zoey.2.3.gaps.bb
+type bigBed
+group map
