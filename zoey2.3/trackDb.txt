@@ -43,3 +43,22 @@ group map
         yLineOnOff on
 
 
+track trf_
+longLabel TRF 
+shortLabel TRF 
+priority 11
+visibility hide
+color 0,0,0 
+bigDataUrl combined-TRF.bb
+type bigBed
+group map
+
+track WM_Dust
+type bigBed 
+bigDataUrl zoey.2.3.sddust.bb
+shortLabel WindowMasker and DUST
+longLabel WindowMasker and DUST
+group map
+
+
+
