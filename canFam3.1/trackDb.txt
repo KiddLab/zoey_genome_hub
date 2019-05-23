@@ -6,6 +6,16 @@ shortLabel zoeylift
 longLabel lift to zoey 2.3
 visibility hide
 
+track zoeyGapsLift
+type bigBed 9
+itemRgb on
+bigDataUrl canFam-gaps.bed.sort.bb
+shortLabel GapLift
+longLabel Gap Mapping to Zoey 2.3
+visibility dense
+
+
+
 track CHORI-82_concordant
 type bigBed 12
 bigDataUrl CHORI-82.concordant.bb
@@ -30,8 +40,6 @@ longLabel CHORI-82 Large Discordant BACs
 visibility hide
 itemRgb on
 
-
-
 track Tasha_FC_3kb
 type bigWig
 bigDataUrl Tasha_CF3.fastCN.3kb.bw
@@ -51,3 +59,4 @@ viewLimits 0:8
 visibility hide
 yLineOnOff on
 yLineMark 2
+
