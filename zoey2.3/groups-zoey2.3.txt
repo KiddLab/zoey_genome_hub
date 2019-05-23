@@ -1,0 +1,14 @@
+name map
+label Mapping
+priority 1
+defaultIsClosed 0
+
+name genes
+label Genes and Gene Predictions
+priority 1
+defaultIsClosed 0
+
+name probes
+label Array Probes and Targets
+priority 1
+defaultIsClosed 0

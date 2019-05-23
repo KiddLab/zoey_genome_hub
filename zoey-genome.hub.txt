@@ -1,0 +1,5 @@
+hub KiddLabZoeyHub
+shortLabel Track Data Hub for Kidd Lab Zoey 
+longLabel University of Michigan Medical School, Human Genetics, Kidd Lab Zoey Annotation Track Hub
+genomesFile zoey-genome.genomes.txt
+email jmkidd@med.umich.edu
