@@ -14,6 +14,13 @@ shortLabel GapLift
 longLabel Gap Mapping to Zoey 2.3
 visibility dense
 
+track segdup
+longLabel segdup > 90%
+shortLabel segdup
+visibility hide
+itemRgb on 
+bigDataUrl cf.segdup_90.bb
+type bigBed 9
 
 
 track CHORI-82_concordant
@@ -59,4 +66,48 @@ viewLimits 0:8
 visibility hide
 yLineOnOff on
 yLineMark 2
+
+track CHORI-82_genbank
+type bigBed 12
+bigDataUrl CHORI-82.genbank.bb
+shortLabel CHORI-82 genbank
+longLabel CHORI-82 ESP in Genbank
+visibility dense
+itemRgb on
+
+track bacseq_genbank
+type bigBed 4
+itemRgb on
+bigDataUrl CHORI-82.genbank.map.bb
+shortLabel bacseq_genbank
+longLabel bacseq_genbank
+visibility dense
+
+track fosmid_concordant
+type bigBed 12
+bigDataUrl fosmid.concordant.bb
+shortLabel fosmid
+longLabel fosmid Concordant
+visibility hide
+itemRgb on
+
+track fosmid_discordant
+type bigBed 12
+bigDataUrl fosmid.discordant.bb
+shortLabel fosmid discordant
+longLabel fosmid Discordant
+visibility hide
+itemRgb on
+
+track fosmid_5mb
+type bigBed 12
+bigDataUrl fosmid.largediscordant.bb
+shortLabel fosmid Large discordant
+longLabel fosmid Large Discordant 
+visibility hide
+itemRgb on
+
+
+
+
 
