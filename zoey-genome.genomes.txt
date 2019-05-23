@@ -5,9 +5,9 @@ trackDb canFam3.1/trackDb.txt
 genome zoey2.3
 trackDb zoey2.3/trackDb.txt
 groups zoey2.3/groups-zoey2.3.txt
-description Zoey 2.3 PacBio Assembly
-organism Great Dane
-scientificName Zoey Great Dane Canis familiaris
+description  
+organism Great Dane Zoey
+scientificName Canis familiaris
 defaultPos chr1:200000-201000
 orderKey 4800
 htmlPath zoey2.3/description.html
