@@ -4,4 +4,50 @@ itemRgb on
 bigDataUrl canToZLift.color.bed.sort.bb
 shortLabel zoeylift
 longLabel lift to zoey 2.3
-visibility dense
+visibility hide
+
+track CHORI-82_concordant
+type bigBed 12
+bigDataUrl CHORI-82.concordant.bb
+shortLabel CHORI-82
+longLabel CHORI-82 Concordant BACs
+visibility hide
+itemRgb on
+
+track CHORI-82_discordant
+type bigBed 12
+bigDataUrl CHORI-82.discordant.bb
+shortLabel CHORI-82 discordant
+longLabel CHORI-82 Discordant BACs
+visibility hide
+itemRgb on
+
+track CHORI-82_discordant_5mb
+type bigBed 12
+bigDataUrl CHORI-82.largediscordant.bb
+shortLabel CHORI-82 Large discordant
+longLabel CHORI-82 Large Discordant BACs
+visibility hide
+itemRgb on
+
+
+
+track Tasha_FC_3kb
+type bigWig
+bigDataUrl Tasha_CF3.fastCN.3kb.bw
+shortLabel Tasha fastCN
+longLabel Tasha fastCN 3kb
+viewLimits 0:8
+visibility hide
+yLineOnOff on
+yLineMark 2
+
+track Zoey_FC_3kb
+type bigWig
+bigDataUrl Zoey.fastCN.3kb.bw
+shortLabel Zoey fastCN
+longLabel Zoey fastCN 3kb
+viewLimits 0:8
+visibility hide
+yLineOnOff on
+yLineMark 2
