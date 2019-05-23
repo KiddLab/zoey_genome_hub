@@ -208,6 +208,54 @@ itemRgb on
 group map
 
 
+### Genes
+track RefSeq_Mammal
+type bigBed 12
+bigDataUrl RefSeq_Mammalian.bb
+shortLabel RefSeq Mammal
+longLabel RefSeq Mammal
+viewLimits 0:8
+visibility hide
+group genes
+
+
+track Ensembl_BLAT_CDNA
+type bigBed 12
+bigDataUrl EnsemblCDNA_ToZoey.12.sorted.bb
+shortLabel Ensembl CDNA BLAT
+longLabel Ensembl CDNA BLAT to Zoey2.3
+visibility hide
+group genes
+itemRgb on
+
+track FinalGeneSet
+type bigBed 12
+bigDataUrl Zoey_FinalGenes_GeneSymbols.12.bb
+shortLabel Zoey_FinalGenes
+longLabel Final Zoey De Novo Genes
+visibility hide
+group genes
+color 0,0,139
+
+
+track expression
+type bigBarChart
+shortLabel exBarChart
+longLabel Expression bar chart 
+barChartBars Ovary Heart Blood Liver Testis Brain SmoothMuscle Unidentified Skin Kidney Lung
+barChartLabel Tissues
+barChartColors #F0C5F8 #A912C4 #C41212 #CFAA50 #98958E #F7EC08 #7947F3 #000000 #406AF9 #A27D22 #42C318
+barChartMetric median 
+barChartUnit TPM
+bigDataUrl ForUCSC_PerTissueExpression.barChart.sorted.bb2 
+visibility hide
+group genes
+
+
+
+
+
+
 
 
 
