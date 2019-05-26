@@ -9,3 +9,15 @@ https://raw.githubusercontent.com/KiddLab/zoey_genome_hub/master/zoey-genome.hub
 
 
 Contact Kidd Lab, University of Michigan for more information
+
+## How to load the track hub
+
+Go to http://genome.ucsc.edu/
+
+Click on My Data --> Track Hubs
+
+click the 'My Hubs' tab
+ 
+paste in this address: https://raw.githubusercontent.com/KiddLab/zoey_genome_hub/master/zoey-genome.hub.txt
+
+Click 'Add Hub'
