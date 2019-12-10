@@ -11,4 +11,4 @@ scientificName Canis familiaris
 defaultPos chr1:200000-201000
 orderKey 4800
 htmlPath zoey2.3/description.html
-twoBitPath http://kiddlabshare.umms.med.umich.edu/zoey2.3/zoey.2.3.2bit
+twoBitPath https://kiddlabshare.med.umich.edu/zoey2.3/zoey.2.3.2bit
