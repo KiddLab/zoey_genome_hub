@@ -25,7 +25,7 @@ group map
         track 50bp_gc
         parent GC_content
         type bigWig
-        bigDataUrl http://kiddlabshare.umms.med.umich.edu/zoey2.3/50.bw
+        bigDataUrl http://kiddlabshare.med.umich.edu/zoey2.3/50.bw
         shortLabel GC_50bp
         longLabel GC 50bp window
         graphTypeDefault bar
@@ -36,7 +36,7 @@ group map
         track 400bp_gc
         parent GC_content
         type bigWig
-        bigDataUrl http://kiddlabshare.umms.med.umich.edu/zoey2.3/400.bw
+        bigDataUrl http://kiddlabshare.med.umich.edu/zoey2.3/400.bw
         shortLabel GC_400bp
         longLabel GC 400bp window
         graphTypeDefault bar
