@@ -301,6 +301,17 @@ bigDataUrl z_c_del.sel.bb
 type bigBed 9
 group map
 
+track inversions
+longLabel filtered inversions vs canfam
+shortLabel inversions
+priority 11
+visibility hide
+itemRgb on 
+bigDataUrl zoey.inv.display.bb
+type bigBed 9
+group map
+
+
 track canfam-nomap
 type bigBed 3
 bigDataUrl zoey.delInCanFam.bed.nogap.sort.bb

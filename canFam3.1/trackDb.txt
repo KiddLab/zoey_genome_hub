@@ -12,7 +12,19 @@ itemRgb on
 bigDataUrl canFam-gaps.bed.sort.bb
 shortLabel GapLift
 longLabel Gap Mapping to Zoey 2.3
-visibility dense
+visibility hide
+
+track inversions
+longLabel filtered inversions vs zoey
+shortLabel inversions
+priority 11
+visibility hide
+itemRgb on 
+bigDataUrl cf.inv.display.bb
+type bigBed 9
+visibility hide
+
+
 
 track segdup
 longLabel segdup > 90%
@@ -21,6 +33,7 @@ visibility hide
 itemRgb on 
 bigDataUrl cf.segdup_90.bb
 type bigBed 9
+visibility hide
 
 
 track CHORI-82_concordant
@@ -72,7 +85,7 @@ type bigBed 12
 bigDataUrl CHORI-82.genbank.bb
 shortLabel CHORI-82 genbank
 longLabel CHORI-82 ESP in Genbank
-visibility dense
+visibility hide
 itemRgb on
 
 track bacseq_genbank
@@ -81,7 +94,7 @@ itemRgb on
 bigDataUrl CHORI-82.genbank.map.bb
 shortLabel bacseq_genbank
 longLabel bacseq_genbank
-visibility dense
+visibility hide
 
 track fosmid_concordant
 type bigBed 12
