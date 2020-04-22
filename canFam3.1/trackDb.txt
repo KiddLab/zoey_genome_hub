@@ -24,6 +24,25 @@ bigDataUrl cf.inv.display.bb
 type bigBed 9
 visibility hide
 
+track insertions
+longLabel insertions vs zoey
+shortLabel insertions
+priority 11
+visibility hide
+itemRgb on 
+bigDataUrl CANFAM.z_c_del.sel.bed9.bb
+type bigBed 9
+visibility hide
+
+track deletions
+longLabel deletions vs zoey
+shortLabel deletions
+priority 11
+visibility hide
+itemRgb on 
+bigDataUrl CANFAM.z_c_ins.sel.bed9.bb
+type bigBed 9
+visibility hide
 
 
 track segdup
