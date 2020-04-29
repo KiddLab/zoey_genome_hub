@@ -38,7 +38,6 @@ track deletions
 longLabel deletions vs zoey
 shortLabel deletions
 priority 11
-visibility hide
 itemRgb on 
 bigDataUrl CANFAM.z_c_ins.sel.bed9.bb
 type bigBed 9
@@ -48,7 +47,6 @@ track secondary_del
 longLabel deletions vs zoey secondary contigs
 shortLabel secondary del
 priority 11
-visibility hide
 itemRgb on 
 bigDataUrl CANFAM.z_notprimary_c_del.sel.bed9.bb
 type bigBed 9
@@ -58,7 +56,6 @@ track secondary_ins
 longLabel insertions vs zoey secondary contigs
 shortLabel secondary ins
 priority 11
-visibility hide
 itemRgb on 
 bigDataUrl CANFAM.z_notprimary_c_ins.sel.bed9.bb
 type bigBed 9
@@ -68,7 +65,6 @@ visibility hide
 track segdup
 longLabel segdup > 90%
 shortLabel segdup
-visibility hide
 itemRgb on 
 bigDataUrl cf.segdup_90.bb
 type bigBed 9
