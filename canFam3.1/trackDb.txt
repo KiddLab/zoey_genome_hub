@@ -50,7 +50,7 @@ shortLabel secondary del
 priority 11
 visibility hide
 itemRgb on 
-bigDataUrl CANFAM.z_notprimary_c_ins.sel.bed9.bb
+bigDataUrl CANFAM.z_notprimary_c_del.sel.bed9.bb
 type bigBed 9
 visibility hide
 
@@ -60,7 +60,7 @@ shortLabel secondary ins
 priority 11
 visibility hide
 itemRgb on 
-bigDataUrl CANFAM.z_notprimary_c_del.sel.bed9.bb
+bigDataUrl CANFAM.z_notprimary_c_ins.sel.bed9.bb
 type bigBed 9
 visibility hide
 

@@ -326,8 +326,7 @@ shortLabel secondary deletions
 priority 11
 visibility hide
 itemRgb on 
-bigDataUrl z_notPrimary_z_ins.sel.bed9.bb
-type bigBed 9
+bigDataUrl z_notPriamry_z_del.sel.bed9.bbtype bigBed 9
 group map
 
 track secondary_ins
@@ -336,7 +335,7 @@ shortLabel secondary insertions
 priority 11
 visibility hide
 itemRgb on 
-bigDataUrl z_notPriamry_z_del.sel.bed9.bb
+bigDataUrl z_notPrimary_z_ins.sel.bed9.bb
 type bigBed 9
 group map
 
