@@ -327,6 +327,7 @@ priority 11
 visibility hide
 itemRgb on 
 bigDataUrl z_notPriamry_z_del.sel.bed9.bbtype bigBed 9
+type bigBed 9
 group map
 
 track secondary_ins
