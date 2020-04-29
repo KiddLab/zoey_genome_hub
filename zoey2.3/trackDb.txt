@@ -320,6 +320,27 @@ longLabel deleted in lift over
 visibility hide
 group map
 
+track secondary_del
+longLabel deletions vs secondary contigs
+shortLabel secondary deletions
+priority 11
+visibility hide
+itemRgb on 
+bigDataUrl z_notPrimary_z_ins.sel.bed9.bb
+type bigBed 9
+group map
+
+track secondary_ins
+longLabel insertions vs secondary contigs
+shortLabel secondary insertions
+priority 11
+visibility hide
+itemRgb on 
+bigDataUrl z_notPriamry_z_del.sel.bed9.bb
+type bigBed 9
+group map
+
+
 
 ### Genes
 track RefSeq_Mammal
