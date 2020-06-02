@@ -6,11 +6,11 @@ shortLabel zoeylift
 longLabel lift to zoey 2.3
 visibility hide
 
-track zoeyGapsLift
+track gapsFilled
 type bigBed 9
 itemRgb on
-bigDataUrl canFam-gaps.bed.sort.bb
-shortLabel GapLift
+bigDataUrl CANFAM.gaps-covered.bb
+shortLabel gaps filled
 longLabel Gap Mapping to Zoey 2.3
 visibility hide
 
