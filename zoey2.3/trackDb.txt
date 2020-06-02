@@ -375,14 +375,14 @@ color 0,0,139
 
 track expression
 type bigBarChart
-shortLabel exBarChart
+shortLabel Filtered Expression
 longLabel Expression bar chart 
 barChartBars Ovary Heart Blood Liver Testis Brain SmoothMuscle Unidentified Skin Kidney Lung
 barChartLabel Tissues
 barChartColors #F0C5F8 #A912C4 #C41212 #CFAA50 #98958E #F7EC08 #7947F3 #000000 #406AF9 #A27D22 #42C318
 barChartMetric median 
 barChartUnit TPM
-bigDataUrl ForUCSC_PerTissueExpression.barChart.sorted.bb2 
+bigDataUrl FILTER.20200602.expression.barChart.bed.sort.bb
 visibility hide
 group genes
 
