@@ -271,16 +271,6 @@ longLabel CanFam 3.1 Gaps
 visibility hide
 group map
 
-track Precise_Liftover_Boundary
-type bigBed
-bigDataUrl ROI_index_in_bianry.bb
-shortLabel Precise_Liftover_Boundary
-longLabel Precise_Liftover_Boundary
-visibility hide
-group map
-color 0,0,255
-
-
 track insertions
 longLabel insertions vs canfam
 shortLabel insertions
@@ -362,14 +352,26 @@ visibility hide
 group genes
 itemRgb on
 
-track FinalGeneSet
+track genes_all
 type bigBed 12
 bigDataUrl Zoey_FinalGenes_GeneSymbols.12.bb
-shortLabel Zoey_FinalGenes
-longLabel Final Zoey De Novo Genes
+shortLabel All Genes
+longLabel Zoey De Novo Genes
 visibility hide
 group genes
 color 0,0,139
+
+track genes_filtered
+type bigBed 12
+bigDataUrl Zoey_FinalGenes.12.bed.FILTER.20200602.bb
+shortLabel Filtered Genes 
+longLabel Filtered De Novo Gene Annotation
+visibility hide
+group genes
+color 0,0,139
+
+
+# this needs updating to new set
 
 track expression
 type bigBarChart
