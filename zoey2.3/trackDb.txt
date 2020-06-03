@@ -355,8 +355,8 @@ itemRgb on
 track genes_all
 type bigBed 12
 bigDataUrl Zoey_FinalGenes_GeneSymbols.12.bb
-shortLabel All Genes
-longLabel Zoey De Novo Genes
+shortLabel Unfiltered Genes
+longLabel Unfiltered Genes
 visibility hide
 group genes
 color 0,0,139
@@ -365,7 +365,7 @@ track genes_filtered
 type bigBed 12
 bigDataUrl Zoey_FinalGenes.12.bed.FILTER.20200602.bb
 shortLabel Filtered Genes 
-longLabel Filtered De Novo Gene Annotation
+longLabel Filtered Genes
 visibility hide
 group genes
 color 0,0,139
