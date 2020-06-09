@@ -331,6 +331,16 @@ type bigBed 9
 group map
 
 
+track complex_sv
+longLabel complex sv
+shortLabel complex sv
+priority 11
+visibility hide
+itemRgb on 
+bigDataUrl ZOEY.complex.bed9.bb
+type bigBed 9
+group map
+
 
 ### Genes
 track RefSeq_Mammal
@@ -370,8 +380,6 @@ visibility hide
 group genes
 color 0,0,139
 
-
-# this needs updating to new set
 
 track expression
 type bigBarChart

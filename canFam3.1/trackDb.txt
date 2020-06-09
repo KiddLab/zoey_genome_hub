@@ -61,6 +61,16 @@ bigDataUrl CANFAM.z_notprimary_c_ins.sel.bed9.bb
 type bigBed 9
 visibility hide
 
+track complex_sv
+longLabel complex sv
+shortLabel complex sv
+priority 11
+visibility hide
+itemRgb on 
+bigDataUrl CANFAM.complex.bed9.bb
+type bigBed 9
+group map
+
 
 track segdup
 longLabel segdup > 90%
