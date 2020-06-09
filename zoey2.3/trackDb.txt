@@ -1,4 +1,4 @@
-grtrack gap
+track gap
 longLabel Zoey Gaps 
 shortLabel Assembly Gaps 
 priority 11
@@ -7,6 +7,8 @@ color 0,0,0
 bigDataUrl zoey.2.3.gaps.bb
 type bigBed
 group map
+
+
 
 track GC_content
 type bigWig
