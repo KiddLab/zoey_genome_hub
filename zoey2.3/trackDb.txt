@@ -1,6 +1,6 @@
-grtrack gap_
-longLabel Gap 
-shortLabel Gap 
+grtrack gap
+longLabel Zoey Gaps 
+shortLabel Assembly Gaps 
 priority 11
 visibility hide
 color 0,0,0 
