@@ -71,7 +71,6 @@ bigDataUrl CANFAM.complex.bed9.bb
 type bigBed 9
 group map
 
-
 track segdup
 longLabel segdup > 90%
 shortLabel segdup
@@ -79,7 +78,6 @@ itemRgb on
 bigDataUrl cf.segdup_90.bb
 type bigBed 9
 visibility hide
-
 
 track CHORI-82_concordant
 type bigBed 12
@@ -105,16 +103,6 @@ longLabel CHORI-82 Large Discordant BACs
 visibility hide
 itemRgb on
 
-track Tasha_FC_3kb
-type bigWig
-bigDataUrl Tasha_CF3.fastCN.3kb.bw
-shortLabel Tasha fastCN
-longLabel Tasha fastCN 3kb
-viewLimits 0:8
-visibility hide
-yLineOnOff on
-yLineMark 2
-
 track Zoey_FC_3kb
 type bigWig
 bigDataUrl Zoey.fastCN.3kb.bw
@@ -124,22 +112,6 @@ viewLimits 0:8
 visibility hide
 yLineOnOff on
 yLineMark 2
-
-track CHORI-82_genbank
-type bigBed 12
-bigDataUrl CHORI-82.genbank.bb
-shortLabel CHORI-82 genbank
-longLabel CHORI-82 ESP in Genbank
-visibility hide
-itemRgb on
-
-track bacseq_genbank
-type bigBed 4
-itemRgb on
-bigDataUrl CHORI-82.genbank.map.bb
-shortLabel bacseq_genbank
-longLabel bacseq_genbank
-visibility hide
 
 track fosmid_concordant
 type bigBed 12
