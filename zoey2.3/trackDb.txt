@@ -246,7 +246,7 @@ shortLabel scaffmap_merge
 longLabel map of scaffolds hits merged
 group map
 
-track contigs_maps
+track contigs_map
 type bigBed 4
 bigDataUrl contigs-maps.bb
 shortLabel contigs-maps
