@@ -8,8 +8,6 @@ bigDataUrl zoey.2.3.gaps.bb
 type bigBed
 group map
 
-
-
 track GC_content
 type bigWig
 container multiWig
@@ -191,7 +189,7 @@ visibility hide
 itemRgb on
 group map
 
-track CH82_disconcordant
+track CH82_disccordant
 type bigBed 12
 bigDataUrl CHORI-82.discordant.bb
 shortLabel CH82_disconcordant
